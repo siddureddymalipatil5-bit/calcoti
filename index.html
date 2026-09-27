@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calcoti — All-in-One Calculator</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0E1116">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Calcoti">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand"><b>Calcoti</b><span>scientific · programmer · graphing · finance · AI — all in one</span></div>
+    <div class="hdr-btns">
+      <button class="iconbtn" id="themeBtn" title="Toggle theme">◐ Theme</button>
+      <button class="iconbtn" id="histBtn" title="History">☰ History</button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs"></nav>
+  <div id="panels"></div>
+
+  <div class="hist" id="histPanel" style="display:none"></div>
+  <footer>Keyboard: digits/operators work in Scientific · Enter = evaluate · Esc = clear · currency rates are static reference values, not live market rates</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

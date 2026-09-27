@@ -1,0 +1,17 @@
+{
+  "name": "Calcoti — All-in-One Calculator",
+  "short_name": "Calcoti",
+  "description": "Scientific, programmer, graphing, finance, matrix, statistics and AI calculator — all in one.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0E1116",
+  "theme_color": "#0E1116",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
